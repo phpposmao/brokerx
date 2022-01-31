@@ -13,6 +13,7 @@ O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 **RF** => Requisitos funcionais
 Deve ser possível listar todos os imóveis disponiveis.
+Deve ser possível listar todos os imóveis pelo nome da categoria.
 
 **RN** => Regras de negócio
 O usuário não precisa estar logado no sistema.
@@ -20,7 +21,7 @@ O usuário não precisa estar logado no sistema.
 # Cadastro de Especificação no imóvel
 
 **RF** => Requisitos funcionais
-Deve ser possível cadastram uma especificação para um imóvel
+Deve ser possível cadastrar uma especificação para um imóvel
 Deve ser possível listar todas as especificações
 Deve ser possível listar todos os imóveis
 
