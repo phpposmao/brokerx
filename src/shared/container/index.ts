@@ -10,6 +10,8 @@ import { IPropertiesRepository } from '../../modules/properties/repositories/IPr
 import { PropertiesRepository } from '../../modules/properties/repositories/implementations/PropertiesRepository';
 import { IPropertiesImagesRepository } from '../../modules/properties/repositories/IPropertiesImagesRepository';
 import { PropertiesImagesRepository } from '../../modules/properties/repositories/implementations/PropertiesImagesRepository';
+import { IRentalsRepository } from '../../modules/rentals/repositories/IRentalsRepository';
+import { RentalsRepository } from '../../modules/rentals/repositories/implementations/RentalsRepository';
 
 container.registerSingleton<ICategoriesRepository>('CategoriesRepository', CategoriesRepository);
 
@@ -20,3 +22,5 @@ container.registerSingleton<IUsersRepository>('UsersRepository', UsersRepository
 container.registerSingleton<IPropertiesRepository>('PropertiesRepository', PropertiesRepository);
 
 container.registerSingleton<IPropertiesImagesRepository>('PropertiesImagesRepository', PropertiesImagesRepository);
+
+container.registerSingleton<IRentalsRepository>('RentalsRepository', RentalsRepository);
